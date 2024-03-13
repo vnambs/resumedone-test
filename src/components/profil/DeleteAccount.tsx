@@ -5,7 +5,6 @@ import classNames from "classnames";
 
 export default function DeleteAccount() {
   return (
-    <div style={{ margin: "20px 0px" }}>
       <div 
         className={classNames(
           DeleteCssModule["delete-wrapper"],
@@ -22,7 +21,6 @@ export default function DeleteAccount() {
             Yes, Delete my account
           </Link>
         </div>
-      </div>
       </div>
   );
 }

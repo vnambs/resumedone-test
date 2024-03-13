@@ -26,6 +26,21 @@
   flex-direction: row;
 }
 
+.users{ 
+  display: flex; 
+  align-items: center;
+  cursor: pointer; 
+}
+
+.username{ 
+  margin-left: 8px;
+  font-family: var(--font-gilroy-medium);
+}
+
+.cursor{
+   cursor: pointer;
+}
+
 @media only screen and (max-width: 1024px) {
   .container-sidebar{
     display: none;

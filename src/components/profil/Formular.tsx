@@ -5,6 +5,7 @@ import FormCssModule from "./formular.module.css";
 import Link from "next/link";
 import { Button } from "@/app/common/Button/Button";
 import RoundedPictures from "@/app/common/images/RoundedPictures";
+import { FaCircleCheck } from "react-icons/fa6";
 
 export type formDataType = {
   first_name?: string;
@@ -96,6 +97,8 @@ export default function PersonalInformationForm() {
             placeholder=''
             name='email'
             size='md'
+            icon={<FaCircleCheck style={ {color:'#27CFB1'}} />}
+            iconPlacement="right"
           />
           <Input
             label='Phone'

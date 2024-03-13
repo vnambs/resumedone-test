@@ -9,6 +9,7 @@
 }
 .text-alert{
   color: var(--color-alert);
+  font-family: var(--font-gilroy-bold);
 }
 
 
@@ -28,7 +29,7 @@
 
 .title {
   font-size: var(--size-text-title-h4);
-  font-family: var(--font-gilroy-heavy);
+  font-family: var(--font-gilroy-bold);
   color: var(--color-black);
 }
 

@@ -14,14 +14,15 @@
 }
 
 @font-face {
-    font-family: 'Gilroy Bold';
+    font-family: 'Gilroy Medium';
     src: url('../app/fonts/Gilroy-Medium.woff') format('truetype');
 }
 
 @font-face {
-    font-family: 'Gilroy Bold';
+    font-family: 'Gilroy Heavy';
     src: url('../app/fonts/Gilroy-Heavy.woff') format('truetype');
 }
+
 :root {
   --max-width: 1100px;
   --color-gray-light: #e3e3e4;

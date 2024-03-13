@@ -101,13 +101,15 @@ const SideBar = () => {
       </div>
 
       <div className={SideBarCssMdoule.footer}>
-        <div style={{ width: "32px", cursor: "pointer" }}>
-          <RoundedPictures src={"/user.jpg"} width={32} height={32} alt='profile' />
-        </div>
-        <span style={{ cursor: "pointer" }}>
-          <FaGear size={"1rem"} color={"#4C4C55"} />
-        </span>
-      </div>
+  <div className={SideBarCssMdoule.users}>
+    <RoundedPictures src={"/user.jpg"} width={32} height={32} alt='profile' />
+    <span className={SideBarCssMdoule.username}>Carla</span>
+  </div>
+  <span className={SideBarCssMdoule.cursor}>
+    <FaGear size={"1rem"} color={"#4C4C55"} />
+  </span>
+</div>
+
     </div>
   );
 };
