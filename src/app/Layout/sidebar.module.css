@@ -1,0 +1,28 @@
+.container-sidebar {
+  width: 240px;
+  border-color: var(--color-gray-light);
+  padding: 5px 8px;
+  display: flex;
+  background-color: white;
+  border-right: 1px solid;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 1080px;
+}
+
+.logo {
+  padding: 12px 0px;
+  border-bottom: 1px solid var(--color-gray-light);
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.footer {
+  position: relative;
+  padding: 16px;
+  border-top: 1px solid var(--color-gray-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
