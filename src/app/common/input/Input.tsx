@@ -4,7 +4,7 @@ import classNames from "classnames";
 interface InputProps {
   type: "text" | "number" | "email" | "password";
   label: string;
-  value: string | number | readonly string[] | undefined | boolean;
+  value: string | number | readonly string[] | undefined;
   color?: "primary" | "secondary" | "success" | "danger";
   name: string;
   placeholder?: string;
