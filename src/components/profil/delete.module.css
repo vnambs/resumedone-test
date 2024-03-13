@@ -2,7 +2,7 @@
   display: flex;
   justify-content: flex-start;
   position: relative;
-  padding: 32px;
+  padding: 7px;
   width: 100%;
   position: relative;
   border-radius: 8px;
@@ -10,6 +10,7 @@
 .text-alert{
   color: var(--color-alert);
 }
+
 
 .content {
   display: flex;
@@ -27,6 +28,8 @@
 
 .title {
   font-size: var(--size-text-title-h4);
+  font-family: var(--font-gilroy-heavy);
+  color: var(--color-black);
 }
 
 

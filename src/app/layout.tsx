@@ -1,11 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "./Layout/footer";
 import layoutCssModule from "./Layout/layout.module.css";
 import SideBar from "./Layout/SideBar";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Resume Done Test",
@@ -19,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
         <main className={layoutCssModule.main}>
           <SideBar/>
             <div className='container layout'>{children}

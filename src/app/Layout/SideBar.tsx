@@ -1,5 +1,4 @@
 import Image from "next/image";
-import classNames from "classnames";
 import { MdListAlt } from "react-icons/md";
 import { BsSearch } from "react-icons/bs";
 import { TbClockHour3 } from "react-icons/tb";
@@ -103,7 +102,7 @@ const SideBar = () => {
 
       <div className={SideBarCssMdoule.footer}>
         <div style={{ width: "32px", cursor: "pointer" }}>
-          <RoundedPictures src={"/user.png"} width={32} height={32} alt='profile' />
+          <RoundedPictures src={"/user.jpg"} width={32} height={32} alt='profile' />
         </div>
         <span style={{ cursor: "pointer" }}>
           <FaGear size={"1rem"} color={"#4C4C55"} />
