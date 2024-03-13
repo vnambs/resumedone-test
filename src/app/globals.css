@@ -17,11 +17,11 @@
   padding: 0;
   margin: 0;
 }
-.text-grey-light {
+.text-gray-light {
   color: var(--color-gray-light);
 }
 
-.text-grey {
+.text-gray {
   color: var(--color-gray);
 }
 
@@ -56,7 +56,7 @@ a {
   text-decoration: none;
 }
 .visible {
-  visibiity: visible !important;
+  visibility: visible !important;
 }
 
 .list-item-title {
@@ -100,7 +100,7 @@ a {
 .text-medium {
   font-size: var(--size-text-medium);
 }
-.text-grey {
+.text-gray {
   color: var(--color-gray);
 }
 
@@ -114,7 +114,7 @@ a {
   margin-right: auto;
   padding: 32px 60px 0px 60px;
   width: 100%;
-  max-width: 960px; /* Adjust max-width as needed */
+  max-width: 960px; 
 }
 
 .link {
