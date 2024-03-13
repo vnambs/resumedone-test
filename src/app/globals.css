@@ -3,7 +3,7 @@
   --color-gray-light: #e3e3e4;
   --color-secondary-light: #27cfb1;
   --color-secondary: #008b5d;
-
+ --color-alert: #eb5757;
   --color-primary: #1688fe;
   --color-gray: #595964;
   --size-text-medium: 15px;
@@ -20,6 +20,8 @@
 .text-gray-light {
   color: var(--color-gray-light);
 }
+
+
 
 .text-gray {
   color: var(--color-gray);

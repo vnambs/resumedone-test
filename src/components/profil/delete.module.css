@@ -7,6 +7,9 @@
   position: relative;
   border-radius: 8px;
 }
+.text-alert{
+  color: var(--color-alert);
+}
 
 .content {
   display: flex;

@@ -4,9 +4,7 @@
 }
 
 .circle {
-  border-radius: 50%;
-  overflow: hidden;
-  padding: 2px;
+  border-radius: 100%;
 }
 .circle img {
   width: 100%;

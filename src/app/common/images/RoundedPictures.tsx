@@ -10,9 +10,9 @@ export type ImageProps = {
 };
 export default function RoundedImage({ src, alt, width, height }: ImageProps) {
   return (
-    <div className={classNames(ImageCss.wrapper, ImageCss.circle)}>
+    <div className={ImageCss.wrapper}>
       <div>
-        <Image src={src} alt={alt} width={width} height={height} />
+        <Image src={src} alt={alt} width={width} height={height} className={ImageCss.circle} />
       </div>
     </div>
   );

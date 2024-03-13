@@ -1,13 +1,12 @@
 .container-sidebar {
   width: 240px;
-  border-color: var(--color-gray-light);
   padding: 5px 8px;
   display: flex;
   background-color: white;
   border-right: 1px solid;
+  border-color: var(--color-gray-light);
   flex-direction: column;
   justify-content: space-between;
-  max-height: 1080px;
 }
 
 .logo {
@@ -25,4 +24,12 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container-sidebar{
+    display: none;
+    position: absolute;
+    z-index: 50;
+  }
 }

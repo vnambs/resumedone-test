@@ -34,7 +34,7 @@ const SideBar = () => {
   };
 
   return (
-    <div className={SideBarCssMdoule.containerSidebar}>
+    <div className={SideBarCssMdoule["container-sidebar"]}>
       <div className={SideBarCssMdoule.content}>
         <div className={SideBarCssMdoule.logo}>
           <Image src='/resumizeme.png' alt='Resumizeme Logo' width={114} height={24} />
@@ -106,7 +106,7 @@ const SideBar = () => {
           <RoundedPictures src={"/user.png"} width={32} height={32} alt='profile' />
         </div>
         <span style={{ cursor: "pointer" }}>
-          <FaGear size={"1rem"} color={"text-grey"} />
+          <FaGear size={"1rem"} color={"#4C4C55"} />
         </span>
       </div>
     </div>
